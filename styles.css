@@ -20,6 +20,7 @@ body {
     background-color: rgb(111, 108, 255);
     text-align: center;
     flex: left;
+    width: 25%;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -33,6 +34,7 @@ body {
     color: rgb(196, 0, 137);
     background-color: rgb(226, 233, 194);
     text-align: center;
+    width: 25%;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -48,6 +50,7 @@ body {
     background-color: #6cf;
     color: rgb(0, 97, 48);
     text-align: center;
+    width: 50%;
     flex: left;
     padding-top: 10px;
     padding-left: 10px;
@@ -70,22 +73,23 @@ body {
   }
   
   @media screen and (max-width: 1230px) {
+    .container {
+      flex-direction: row;
+    }
+    .services,
+    .testimonials {
+      width:25%;
+    }
+    .main-content {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
     .services,
     .testimonials,
     .main-content {
       width: 100%;
-    }
-  }
-  
-  @media screen and (min-width: 769px) {
-    .container {
-      flex-direction: row;
-    }
-  
-    .services,
-    .testimonials,
-    .main-content {
-      width: 33.33%;
     }
   }
   
