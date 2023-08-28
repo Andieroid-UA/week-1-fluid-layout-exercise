@@ -1,4 +1,5 @@
 ## Exercise: FluidBiz Co. 
+## https://andieroid-ua.github.io/fluid-layout-exercise/
 
 A part of the CodeLabs FrontEnd Bootcamp. Original source code: https://github.com/Codefi-Code-Labs/FE-VIdeo-Exercises/blob/main/class-2-intermediate-css/exercises.md
 
